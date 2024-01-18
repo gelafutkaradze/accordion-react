@@ -19,10 +19,12 @@ export const App = () => {
       <div className="container">
         <div className="child-container">
           <div className="left-parent">
-            <img src={img} alt="Description of the image" />
+            <img className="img" src={img} alt="Description of the image" />
           </div>
           <div className="right-child">
-            <h1 style={{ paddingBottom: "30px" }}>FAQ</h1>
+            <h1 className="faq" style={{ paddingBottom: "30px" }}>
+              FAQ
+            </h1>
             {informations.map((info) => (
               <Accordion
                 key={info.title}

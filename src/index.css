@@ -70,3 +70,36 @@ button{
   color: orange;
 }
 
+@media only screen and (max-width: 1024px) {
+  .child-container {
+    width: 700px;
+    height: 400px;
+  }.img{
+    width: 300px;
+height: 280px;
+  }.accordion{
+    margin-right: 20px;
+  }
+}
+
+
+
+@media only screen and (max-width: 724px) {
+ .child-container{
+  width: 433px;
+    height: 492px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ }.img{
+  transform: translate(57px, -312px);
+ }.accordion{
+  display: flex;
+  justify-content: center;
+  margin-right: 1px;
+ }.faq{
+  margin-left: 40px;
+ }.right-child{
+  margin-top: 1px;
+ }
+}
